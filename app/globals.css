@@ -56,6 +56,9 @@
       @apply px-4;
     }
     @variant xl {
+      @apply max-w-7xl;
+    }
+    @variant 2xl {
       @apply max-w-6xl;
     }
   }
@@ -88,7 +91,7 @@
     @apply font-poppins text-lg leading-[166%] font-normal;
   }
   section {
-    @apply block w-full py-8 md:py-14 xl:py-26;
+    @apply block w-full py-8 md:py-14 2xl:py-26!;
   }
 
   main {

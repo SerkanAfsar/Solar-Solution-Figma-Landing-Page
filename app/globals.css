@@ -42,7 +42,7 @@
 @layer utilities {
   .container {
     @apply mx-auto w-full;
-    @variant max-xl {
+    @variant max-2xl {
       @apply px-4;
     }
 

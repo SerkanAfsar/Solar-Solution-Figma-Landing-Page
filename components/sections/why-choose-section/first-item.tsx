@@ -4,7 +4,10 @@ export default function FirstItem() {
   return (
     <CustomElement>
       <CustomElement className="flex h-full w-full flex-col items-center justify-center gap-2">
-        <CustomElement as="h2" className="block w-full text-left! leading-14!">
+        <CustomElement
+          as="h2"
+          className="block w-full text-center leading-14! md:text-left"
+        >
           Why Choose Us?
         </CustomElement>
         <CustomElement as="p" className="text-center md:text-left">

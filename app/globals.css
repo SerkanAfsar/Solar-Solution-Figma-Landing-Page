@@ -79,7 +79,7 @@
   }
 
   h2 {
-    @apply text-font-black text-center text-3xl md:text-left md:text-4xl xl:text-5xl xl:leading-[170%]!;
+    @apply text-font-black text-center text-3xl md:text-left md:text-4xl xl:text-5xl xl:leading-[130%]!;
   }
   h3 {
     @apply text-font-gray text-2xl leading-[120%];

@@ -46,13 +46,13 @@
       @apply px-4;
     }
 
-    @variant xl {
+    @variant lg {
       @apply max-w-7xl;
     }
   }
   .container-md {
     @apply mx-auto w-full;
-    @variant max-xl {
+    @variant max-2xl {
       @apply px-4;
     }
     @variant xl {
